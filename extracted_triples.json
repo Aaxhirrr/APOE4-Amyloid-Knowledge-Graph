@@ -1,0 +1,167 @@
+[
+  {
+    "subject": "mLVs",
+    "relation": "are",
+    "object": "the key drainage route responsible for the clearance of molecules, immune cells, and cellular debris from the cerebrospinal fluid and interstitial fluid into deep cervical lymph nodes"
+  },
+  {
+    "subject": "Aging and ApoE4",
+    "relation": "induce",
+    "object": "mLV dysfunction, decrease cerebrospinal fluid influx and outflux, and exacerbate amyloid pathology and cognitive dysfunction"
+  },
+  {
+    "subject": "mLV dysfunction",
+    "relation": "results in",
+    "object": "the deposition of metabolic products, accelerates neuroinflammation, and promotes the release of pro-inflammatory cytokines in the brain"
+  },
+  {
+    "subject": "APOE",
+    "relation": "influence",
+    "object": "accumulation of Ab in the brain"
+  },
+  {
+    "subject": "APOE",
+    "relation": "produced by",
+    "object": "different cell types in the brain"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "largest producer of",
+    "object": "apoE"
+  },
+  {
+    "subject": "microglia",
+    "relation": "express",
+    "object": "high levels of apoE"
+  },
+  {
+    "subject": "altering apoE levels in the brain",
+    "relation": "influence",
+    "object": "development of Ab plaque pathology"
+  },
+  {
+    "subject": "APOE knock-in mice",
+    "relation": "capable of having",
+    "object": "APOE selectively removed from astrocytes"
+  },
+  {
+    "subject": "APOE knock-in mice",
+    "relation": "crossed with",
+    "object": "APP/PS1-21 mouse model of amyloidosis"
+  },
+  {
+    "subject": "reduction of astrocytic apoE3 and apoE4",
+    "relation": "led to",
+    "object": "large decrease in Ab plaque deposition"
+  },
+  {
+    "subject": "reduction of astrocytic apoE3 and apoE4",
+    "relation": "led to",
+    "object": "less compact plaques"
+  },
+  {
+    "subject": "reduction of astrocytic apoE",
+    "relation": "resulted in",
+    "object": "decreased microglial activation"
+  },
+  {
+    "subject": "reduction of astrocytic apoE",
+    "relation": "resulted in",
+    "object": "decreased astrocyte GFAP levels around amyloid plaques"
+  },
+  {
+    "subject": "reduction of astrocytic apoE",
+    "relation": "resulted in",
+    "object": "decreased overall GFAP levels in the cortex of female apoE4 mice"
+  },
+  {
+    "subject": "removal of astrocytic apoE",
+    "relation": "increased",
+    "object": "amount of neuritic dystrophy around remaining individual plaques"
+  },
+  {
+    "subject": "removal of astrocytic apoE",
+    "relation": "decreased",
+    "object": "overall amount of cortical amyloid-associated neuritic dystrophy"
+  },
+  {
+    "subject": "circulating immune cells",
+    "relation": "contribute to",
+    "object": "pathogenesis of Alzheimer's disease"
+  },
+  {
+    "subject": "subset of interleukin (IL)-17+ neutrophils",
+    "relation": "inhibit",
+    "object": "neuroprotective microglia"
+  },
+  {
+    "subject": "female APOE4 carriers",
+    "relation": "identified as",
+    "object": "subset of interleukin (IL)-17+ neutrophils"
+  },
+  {
+    "subject": "Blockade of IL-17 signaling or APOE4 deletion in neutrophils",
+    "relation": "restored",
+    "object": "microglial responses"
+  },
+  {
+    "subject": "Blockade of IL-17 signaling or APOE4 deletion in neutrophils",
+    "relation": "reduced",
+    "object": "murine amyloid pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is risk factor for",
+    "object": "CAA"
+  },
+  {
+    "subject": "in vitro BBB",
+    "relation": "displayed",
+    "object": "more amyloid accumulation in APOE4 compared to APOE3"
+  },
+  {
+    "subject": "dysregulation of calcineurin-NFAT signaling and APOE",
+    "relation": "induces",
+    "object": "APOE4-associated CAA pathology"
+  },
+  {
+    "subject": "APOE and NFAT",
+    "relation": "are dysregulated in",
+    "object": "pericytes of APOE4 carriers"
+  },
+  {
+    "subject": "inhibition of calcineurin-NFAT signaling",
+    "relation": "reduces",
+    "object": "APOE4-associated CAA pathology in vitro and in vivo"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "beta-amyloid plaque formation"
+  },
+  {
+    "subject": "APOE",
+    "relation": "expressed in",
+    "object": "astrocytes"
+  },
+  {
+    "subject": "APOE",
+    "relation": "expressed in",
+    "object": "microglia"
+  },
+  {
+    "subject": "APOE2",
+    "relation": "increases",
+    "object": "fibrillar plaque deposition"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "affects",
+    "object": "soluble Ab aggregates"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "play a central role in",
+    "object": "APOE mediated amyloid plaque pathology"
+  }
+]
