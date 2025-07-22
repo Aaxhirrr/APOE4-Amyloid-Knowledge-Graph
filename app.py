@@ -35,17 +35,45 @@ def calculate_analytics(records):
         G.add_edge(r["subj"], r["obj"])
     return {"degree": nx.degree_centrality(G), "betweenness": nx.betweenness_centrality(G)}
 
+# --- Find and replace this entire function in your app.py ---
+
 def run_louvain_analysis(driver):
-    """Runs Louvain community detection using GDS."""
+    """Runs the Louvain community detection algorithm using modern GDS syntax."""
     with driver.session() as session:
         try:
-            session.run("CALL gds.graph.project('ad_graph_louvain', 'MATCH (n) RETURN id(n) AS id', 'MATCH (a)-[:RELATION]->(b) RETURN id(a) AS source, id(b) AS target') YIELD graphName")
-            result = session.run("CALL gds.louvain.stream('ad_graph_louvain') YIELD nodeId, communityId RETURN gds.util.asNode(nodeId).name AS name, communityId")
-            community_map = {record['name']: record['communityId'] for record in result}
-            session.run("CALL gds.graph.drop('ad_graph_louvain')")
+            # Drop the graph if it exists to ensure we're using the latest data
+            session.run("CALL gds.graph.drop('ad_graph_louvain') YIELD graphName")
+        except:
+            # Do nothing if the graph doesn't exist
+            pass
+        
+        try:
+            # FIXED: Use the modern, more compatible syntax for graph projection
+            # This tells GDS to create a graph named 'ad_graph_louvain' using ALL nodes (*)
+            # and all relationships of type 'RELATION'.
+            session.run("""
+                CALL gds.graph.project(
+                    'ad_graph_louvain',
+                    '*',
+                    'RELATION'
+                ) YIELD graphName
+            """)
+            
+            # Run the Louvain algorithm as before
+            result = session.run("""
+                CALL gds.louvain.stream('ad_graph_louvain')
+                YIELD nodeId, communityId
+                RETURN gds.util.asNode(nodeId).name AS name, communityId
+            """)
+            community_map = {record['name']: record['communityId'] for record in result.data()}
+            
+            # Clean up the projection
+            session.run("CALL gds.graph.drop('ad_graph_louvain') YIELD graphName")
+            
             return community_map
+            
         except Exception as e:
-            st.error(f"Neo4j GDS Error: {e}. Please ensure the GDS plugin is installed.")
+            st.error(f"Neo4j GDS Error: {e}. The GDS library may be undergoing maintenance or the query failed.")
             return {}
 
 def extract_triples_from_text(text):
