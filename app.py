@@ -38,43 +38,39 @@ def calculate_analytics(records):
 # --- Find and replace this entire function in your app.py ---
 
 def run_louvain_analysis(driver):
-    """Runs the Louvain community detection algorithm using modern GDS syntax."""
+    """Runs the Louvain community detection, now with AuraDB GDS authentication."""
     with driver.session() as session:
+        graph_name = 'ad_graph_louvain'
         try:
-            # Drop the graph if it exists to ensure we're using the latest data
-            session.run("CALL gds.graph.drop('ad_graph_louvain') YIELD graphName")
-        except:
-            # Do nothing if the graph doesn't exist
-            pass
-        
-        try:
-            # FIXED: Use the modern, more compatible syntax for graph projection
-            # This tells GDS to create a graph named 'ad_graph_louvain' using ALL nodes (*)
-            # and all relationships of type 'RELATION'.
-            session.run("""
+            # NEW & CRITICAL: Authenticate the GDS session for AuraDB.
+            # This is the line that the new error message told us to add.
+            session.run("CALL gds.aura.api.credentials()")
+
+            # Create the GDS graph projection
+            session.run(f"""
                 CALL gds.graph.project(
-                    'ad_graph_louvain',
+                    '{graph_name}',
                     '*',
                     'RELATION'
                 ) YIELD graphName
             """)
             
-            # Run the Louvain algorithm as before
-            result = session.run("""
-                CALL gds.louvain.stream('ad_graph_louvain')
+            # Run the Louvain algorithm
+            result = session.run(f"""
+                CALL gds.louvain.stream('{graph_name}')
                 YIELD nodeId, communityId
                 RETURN gds.util.asNode(nodeId).name AS name, communityId
             """)
             community_map = {record['name']: record['communityId'] for record in result.data()}
             
-            # Clean up the projection
-            session.run("CALL gds.graph.drop('ad_graph_louvain') YIELD graphName")
-            
             return community_map
             
         except Exception as e:
-            st.error(f"Neo4j GDS Error: {e}. The GDS library may be undergoing maintenance or the query failed.")
+            st.error(f"Neo4j GDS Error: {e}.")
             return {}
+        finally:
+            # Ensure the graph projection is always cleaned up
+            session.run(f"CALL gds.graph.drop('{graph_name}') YIELD graphName")
 
 def extract_triples_from_text(text):
     """Calls OpenAI to extract triples from user-provided text."""
