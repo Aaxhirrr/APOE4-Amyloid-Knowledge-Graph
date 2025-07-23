@@ -33,7 +33,7 @@ def calculate_analytics(records):
         G.add_edge(r["subj"], r["obj"])
     return {"degree": nx.degree_centrality(G), "betweenness": nx.betweenness_centrality(G)}
 
-# --- FIXED: New function to run Louvain locally using NetworkX ---
+# --- New commit to git: New function to run Louvain locally using NetworkX ---
 def run_louvain_analysis_local(records):
     """
     Runs Louvain community detection LOCALLY using the NetworkX library.
@@ -64,7 +64,7 @@ def extract_triples_from_text(text):
     You are an expert biomedical researcher...
     Abstract: "{text}"
     Output:
-    """ # Abridged for brevity
+    """ 
     try:
         resp = openai.chat.completions.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": prompt}], temperature=0)
         content = resp.choices[0].message.content
@@ -140,7 +140,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.header("🔬 Analytics")
-    # --- FIXED: Call the new local function ---
+    # ---: Call the new local function ---
     if st.button("Cluster Communities"):
         st.session_state.community_map = run_louvain_analysis_local(st.session_state.records)
         # We need to rerun to apply the new colors to the graph
@@ -152,7 +152,7 @@ entities = sorted({r["subj"] for r in filtered_records} | {r["obj"] for r in fil
 
 col1, col2 = st.columns([3, 1])
 
-# --- FIXED: We put the inspector (col2) definition after the graph (col1) again.
+# --- We put the inspector (col2) definition after the graph (col1) again.
 # The `selected` variable is defined within the col2 block, and the graph
 # will just re-render on the next run when `selected` changes.
 with col1:

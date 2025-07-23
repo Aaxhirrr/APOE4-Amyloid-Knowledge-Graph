@@ -1,58 +1,1216 @@
 [
   {
-    "subject": "mLVs",
-    "relation": "are",
-    "object": "the key drainage route responsible for the clearance of molecules, immune cells, and cellular debris from the cerebrospinal fluid and interstitial fluid into deep cervical lymph nodes"
+    "subject": "Lecanemab",
+    "relation": "is approved for",
+    "object": "treatment of Alzheimer's disease"
   },
   {
-    "subject": "Aging and ApoE4",
-    "relation": "induce",
-    "object": "mLV dysfunction, decrease cerebrospinal fluid influx and outflux, and exacerbate amyloid pathology and cognitive dysfunction"
+    "subject": "Lecanemab",
+    "relation": "is initiated in",
+    "object": "early AD with confirmed brain amyloid pathology"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "is administered at",
+    "object": "clinical trial sites"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "differs from",
+    "object": "community clinic-based administration"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "is known for",
+    "object": "patients like those in phase 2 and phase 3 trials"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "may cause",
+    "object": "amyloid related imaging abnormalities (ARIA)"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "may cause",
+    "object": "infusion reactions"
+  },
+  {
+    "subject": "Lecanemab",
+    "relation": "may cause",
+    "object": "microhemorrhages and rare macrohemorrhages"
+  },
+  {
+    "subject": "Patients receiving Lecanemab",
+    "relation": "may experience",
+    "object": "adverse events"
+  },
+  {
+    "subject": "Patients who are APOE4 gene carriers",
+    "relation": "are at higher risk for",
+    "object": "ARIA"
+  },
+  {
+    "subject": "APOE4 gene carriers",
+    "relation": "are recommended to undergo",
+    "object": "APOE genotyping"
+  },
+  {
+    "subject": "Clinician and institutional preparedness",
+    "relation": "is mandatory for",
+    "object": "use of Lecanemab"
+  },
+  {
+    "subject": "Communication between clinicians and therapy candidates",
+    "relation": "is a key element of",
+    "object": "good clinical practice for the use of Lecanemab"
+  },
+  {
+    "subject": "APOE4 genetic variant",
+    "relation": "is dominant risk factor for",
+    "object": "late-onset Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4 genetic variant",
+    "relation": "increases",
+    "object": "frequency of reactive microglial population"
+  },
+  {
+    "subject": "APOE4 genetic variant",
+    "relation": "contributes to",
+    "object": "AD risk and pathology"
+  },
+  {
+    "subject": "age",
+    "relation": "is dominant risk factor for",
+    "object": "late-onset Alzheimer's disease"
+  },
+  {
+    "subject": "age",
+    "relation": "increases",
+    "object": "frequency of reactive microglial population"
+  },
+  {
+    "subject": "age",
+    "relation": "contributes to",
+    "object": "AD risk and pathology"
+  },
+  {
+    "subject": "reactive microglial population",
+    "relation": "is defined by",
+    "object": "concomitant expression of inflammatory signals and cell-intrinsic stress markers"
+  },
+  {
+    "subject": "reactive microglial population",
+    "relation": "increases",
+    "object": "with age and APOE4 burden"
+  },
+  {
+    "subject": "terminally inflammatory microglia (TIM)",
+    "relation": "exhibits",
+    "object": "defects in amyloid-beta clearance"
+  },
+  {
+    "subject": "terminally inflammatory microglia (TIM)",
+    "relation": "exhibits",
+    "object": "altered cell-cell communication during aducanumab treatment"
+  },
+  {
+    "subject": "terminally inflammatory microglia (TIM)",
+    "relation": "contributes to",
+    "object": "AD risk and pathology in APOE4 carriers and the elderly"
+  },
+  {
+    "subject": "terminally inflammatory microglia (TIM)",
+    "relation": "is potential therapeutic target for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE e4 allele",
+    "relation": "is primary genetic risk factor for",
+    "object": "sporadic Alzheimer's disease"
+  },
+  {
+    "subject": "APOE e4 allele",
+    "relation": "expressed in",
+    "object": "40-65% of all AD patients"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "associated to",
+    "object": "many pathological processes possibly linked to cognitive impairment"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "associated to",
+    "object": "amyloid-b (Ab) pathologies"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "associated to",
+    "object": "tau pathologies"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "causing",
+    "object": "mitochondrial dysfunction and neurotoxicity"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "associated with",
+    "object": "increased mitochondrial Ca2+ levels"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "associated with",
+    "object": "reactive oxygen species (ROS) levels"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "affects",
+    "object": "mitochondrial dynamics, namely fusion and fission, and mitophagy"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "translocates to",
+    "object": "the nucleus"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "regulating",
+    "object": "the expression of genes involved in aging, Ab production, inflammation and apoptosis"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "potentially linked to",
+    "object": "AD pathogenesis"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is first identified genetic risk factor for",
+    "object": "late-onset Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "remains as",
+    "object": "strongest predictor for late-onset Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "provokes",
+    "object": "neuroinflammation"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "impairs",
+    "object": "cerebrovasculature"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "exacerbates",
+    "object": "amyloid pathologies"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "exacerbates",
+    "object": "tau pathologies"
+  },
+  {
+    "subject": "apoE",
+    "relation": "is greatly up-regulated in",
+    "object": "disease-associated microglia in mouse models of amyloidosis"
+  },
+  {
+    "subject": "apoE",
+    "relation": "is greatly up-regulated in",
+    "object": "human microglia from AD brains"
+  },
+  {
+    "subject": "genetic knock-down or depletion of apoE in mice",
+    "relation": "greatly attenuates",
+    "object": "neuroinflammation"
+  },
+  {
+    "subject": "genetic knock-down or depletion of apoE in mice",
+    "relation": "alleviates",
+    "object": "amyloid pathologies"
+  },
+  {
+    "subject": "genetic knock-down or depletion of apoE in mice",
+    "relation": "alleviates",
+    "object": "tau pathologies"
+  },
+  {
+    "subject": "apoE reduction",
+    "relation": "represents",
+    "object": "promising therapeutic strategy for the treatment of AD patients carrying the APOE e4 allele"
+  },
+  {
+    "subject": "administration of apoE antisense oligonucleotides or apoE siRNAs",
+    "relation": "leads to significant pharmacologic effects, i.e., significant alleviation of",
+    "object": "AD pathologies in mouse models"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "is risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "induces",
+    "object": "mLV dysfunction"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "exacerbates",
+    "object": "amyloid pathology"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "exacerbates",
+    "object": "cognitive dysfunction"
   },
   {
     "subject": "mLV dysfunction",
     "relation": "results in",
-    "object": "the deposition of metabolic products, accelerates neuroinflammation, and promotes the release of pro-inflammatory cytokines in the brain"
+    "object": "deposition of metabolic products"
+  },
+  {
+    "subject": "mLV dysfunction",
+    "relation": "accelerates",
+    "object": "neuroinflammation"
+  },
+  {
+    "subject": "mLV dysfunction",
+    "relation": "promotes",
+    "object": "release of pro-inflammatory cytokines"
+  },
+  {
+    "subject": "mLVs",
+    "relation": "represent",
+    "object": "therapeutic target for treating neurodegenerative and neuroinflammatory diseases"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "impacts",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "exhibits",
+    "object": "AD pathology"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "has higher levels of",
+    "object": "AD biomarkers"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "has abnormal amyloid levels in",
+    "object": "cerebrospinal fluid"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "has positive amyloid scans"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "has near-full penetrance of",
+    "object": "AD biology"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "has earlier age of symptom onset"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "mirrors biomarker changes in",
+    "object": "autosomal dominant AD and Down syndrome"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "represents",
+    "object": "genetic form of AD"
+  },
+  {
+    "subject": "APOE4 homozygosity",
+    "relation": "suggests the need for",
+    "object": "individualized prevention strategies, clinical trials and treatments"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is strongest genetic risk factor for",
+    "object": "late-onset Alzheimer disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "increases",
+    "object": "brain amyloid-b pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "influences",
+    "object": "tau pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "influences",
+    "object": "tau-mediated neurodegeneration"
+  },
+  {
+    "subject": "P301S/E4 mice",
+    "relation": "have",
+    "object": "significantly higher tau levels in the brain"
+  },
+  {
+    "subject": "P301S/E4 mice",
+    "relation": "have",
+    "object": "greater extent of somatodendritic tau redistribution"
+  },
+  {
+    "subject": "P301S/E4 mice",
+    "relation": "develop",
+    "object": "markedly more brain atrophy and neuroinflammation"
+  },
+  {
+    "subject": "E4-expressing microglia",
+    "relation": "exhibit",
+    "object": "higher innate immune reactivity after lipopolysaccharide treatment"
+  },
+  {
+    "subject": "P301S tau-expressing neurons",
+    "relation": "have",
+    "object": "significantly higher level of tumour-necrosis factor-a (TNF-a) secretion"
+  },
+  {
+    "subject": "P301S tau-expressing neurons",
+    "relation": "have",
+    "object": "markedly reduced neuronal viability"
+  },
+  {
+    "subject": "individuals with a sporadic primary tauopathy",
+    "relation": "have",
+    "object": "association of e4 allele with more severe regional neurodegeneration"
+  },
+  {
+    "subject": "e4-carriers",
+    "relation": "demonstrate",
+    "object": "greater rates of disease progression"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is strongest genetic risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "influences",
+    "object": "disease onset and progression"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "interacts with",
+    "object": "amyloid-b plaques"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "interacts with",
+    "object": "neurofibrillary tau tangles"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "interacts with",
+    "object": "neuroinflammation"
+  },
+  {
+    "subject": "microglia",
+    "relation": "exist in",
+    "object": "immune-vigilant state"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "exist in",
+    "object": "immune-vigilant state"
+  },
+  {
+    "subject": "microglia",
+    "relation": "provide",
+    "object": "immunological defense"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "provide",
+    "object": "immunological defense"
+  },
+  {
+    "subject": "microglia",
+    "relation": "provide",
+    "object": "housekeeping functions"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "provide",
+    "object": "housekeeping functions"
+  },
+  {
+    "subject": "immune cells",
+    "relation": "become",
+    "object": "dysfunctional in regulating metabolic and immunoregulatory pathways"
+  },
+  {
+    "subject": "dysfunction of immune cells",
+    "relation": "promotes",
+    "object": "chronic inflammation-induced neurodegeneration"
   },
   {
     "subject": "APOE",
+    "relation": "influences",
+    "object": "amyloid-b pathology"
+  },
+  {
+    "subject": "APOE",
+    "relation": "influences",
+    "object": "tau pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "disrupts",
+    "object": "microglial immunomodulating functions"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "disrupts",
+    "object": "astroglial immunomodulating functions"
+  },
+  {
+    "subject": "chronic inflammation",
+    "relation": "contributes to",
+    "object": "neurodegeneration in AD"
+  },
+  {
+    "subject": "Vascular contributions to dementia",
+    "relation": "are recognized as",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "breakdown of the blood-brain barrier (BBB)",
+    "relation": "is",
+    "object": "early biomarker of human cognitive dysfunction"
+  },
+  {
+    "subject": "breakdown of the blood-brain barrier (BBB)",
+    "relation": "is",
+    "object": "early clinical stages of Alzheimer's disease"
+  },
+  {
+    "subject": "E4 variant of apolipoprotein E (APOE4)",
+    "relation": "is",
+    "object": "main susceptibility gene for Alzheimer's disease"
+  },
+  {
+    "subject": "E4 variant of apolipoprotein E (APOE4)",
+    "relation": "leads to",
+    "object": "accelerated breakdown of the BBB"
+  },
+  {
+    "subject": "E4 variant of apolipoprotein E (APOE4)",
+    "relation": "leads to",
+    "object": "degeneration of brain capillary pericytes"
+  },
+  {
+    "subject": "brain capillary pericytes",
+    "relation": "maintain",
+    "object": "BBB integrity"
+  },
+  {
+    "subject": "individuals bearing APOE4",
+    "relation": "are distinguished from",
+    "object": "those without APOE4"
+  },
+  {
+    "subject": "individuals bearing APOE4",
+    "relation": "show breakdown of the BBB in",
+    "object": "hippampus and medial temporal lobe"
+  },
+  {
+    "subject": "breakdown of the BBB",
+    "relation": "is",
+    "object": "apparent in cognitively unimpaired APOE4 carriers"
+  },
+  {
+    "subject": "breakdown of the BBB",
+    "relation": "is",
+    "object": "more severe in those with cognitive impairment"
+  },
+  {
+    "subject": "baseline levels of the BBB pericyte injury biomarker soluble PDGFRb",
+    "relation": "predicted",
+    "object": "future cognitive decline in APOE4 carriers"
+  },
+  {
+    "subject": "baseline levels of the BBB pericyte injury biomarker soluble PDGFRb",
+    "relation": "were correlated with",
+    "object": "increased activity of the BBB-degrading cyclophilin A-matrix metalloproteinase-9 pathway"
+  },
+  {
+    "subject": "findings",
+    "relation": "suggest that",
+    "object": "breakdown of the BBB contributes to APOE4-associated cognitive decline independently of Alzheimer's disease pathology"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "constitutes",
+    "object": "most important genetic risk factor for Alzheimer's disease"
+  },
+  {
+    "subject": "ApoE3",
+    "relation": "is",
+    "object": "neutral"
+  },
+  {
+    "subject": "ApoE2",
+    "relation": "is",
+    "object": "protective"
+  },
+  {
+    "subject": "ApoE isoforms",
     "relation": "influence",
+    "object": "AD pathogenesis"
+  },
+  {
+    "subject": "ApoE",
+    "relation": "secreted by",
+    "object": "glia"
+  },
+  {
+    "subject": "ApoE",
+    "relation": "stimulates",
+    "object": "neuronal Ab production"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "has potency rank order of",
+    "object": "ApoE4 > ApoE3 > ApoE2"
+  },
+  {
+    "subject": "ApoE",
+    "relation": "binding to",
+    "object": "ApoE receptors"
+  },
+  {
+    "subject": "ApoE",
+    "relation": "activates",
+    "object": "DLK"
+  },
+  {
+    "subject": "DLK",
+    "relation": "activates",
+    "object": "MKK7 and ERK1/2 MAP kinases"
+  },
+  {
+    "subject": "ERK1/2",
+    "relation": "induces",
+    "object": "cFos phosphorylation"
+  },
+  {
+    "subject": "cFos",
+    "relation": "stimulates",
+    "object": "AP-1"
+  },
+  {
+    "subject": "AP-1",
+    "relation": "enhances transcription of",
+    "object": "amyloid-b precursor protein (APP)"
+  },
+  {
+    "subject": "APP",
+    "relation": "increases",
+    "object": "amyloid-b levels"
+  },
+  {
+    "subject": "molecular mechanism",
+    "relation": "regulates",
+    "object": "APP transcription in mice in vivo"
+  },
+  {
+    "subject": "Alzheimer's disease",
+    "relation": "involves",
+    "object": "dysregulation of many cellular and molecular processes"
+  },
+  {
+    "subject": "Alzheimer's disease",
+    "relation": "is difficult to develop therapeutics for",
+    "object": "due to its complex nature"
+  },
+  {
+    "subject": "advancements in imaging technology and development of innovative experimental techniques",
+    "relation": "have allowed",
+    "object": "researchers to perform in-depth analyses to uncover the pathogenic mechanisms of AD"
+  },
+  {
+    "subject": "late-onset AD",
+    "relation": "has major genetic risk factor",
+    "object": "apolipoprotein E4 (apoE4)"
+  },
+  {
+    "subject": "exact mechanisms",
+    "relation": "are not fully understood for",
+    "object": "apoE4 effects on AD initiation and progression"
+  },
+  {
+    "subject": "recent studies",
+    "relation": "have revealed",
+    "object": "critical insights into the apoE4-induced deficits that occur in AD"
+  },
+  {
+    "subject": "apoE4 effects",
+    "relation": "detail on",
+    "object": "prominent AD pathologies, including amyloid-b, tau pathology, neuroinflammation, and neural network dysfunction"
+  },
+  {
+    "subject": "evidence",
+    "relation": "defines",
+    "object": "physiological functions of apoE and outlines how these functions are disrupted in apoE4-related AD"
+  },
+  {
+    "subject": "Alzheimer disease therapies",
+    "relation": "to attenuate",
+    "object": "clinical progression"
+  },
+  {
+    "subject": "onset",
+    "relation": "before",
+    "object": "amyloid-associated tau spreading"
+  },
+  {
+    "subject": "amyloid-associated tau spreading",
+    "relation": "drives",
+    "object": "neurodegeneration and cognitive decline"
+  },
+  {
+    "subject": "time points",
+    "relation": "may depend on",
+    "object": "individual risk factors"
+  },
+  {
+    "subject": "individual risk factors",
+    "relation": "such as",
+    "object": "apolipoprotein E e4 (ApoE4) carriership"
+  },
+  {
+    "subject": "apolipoprotein E e4 (ApoE4) carriership",
+    "relation": "is linked to",
+    "object": "faster disease progression"
+  },
+  {
+    "subject": "association",
+    "relation": "of",
+    "object": "ApoE4 with amyloid-related tau spreading"
+  },
+  {
+    "subject": "ApoE4 carriers",
+    "relation": "show",
+    "object": "accelerated amyloid-related tau spreading"
+  },
+  {
+    "subject": "ApoE4 carriers",
+    "relation": "propose",
+    "object": "amyloid positron emission tomography (PET) thresholds"
+  },
+  {
+    "subject": "amyloid positron emission tomography (PET) thresholds",
+    "relation": "at which",
+    "object": "tau spreading accelerates in ApoE4 carriers vs noncarriers"
+  },
+  {
+    "subject": "cohort study",
+    "relation": "including",
+    "object": "combined ApoE genotyping, amyloid PET, and longitudinal tau PET"
+  },
+  {
+    "subject": "participants",
+    "relation": "classified as",
+    "object": "cognitively normal or mildly cognitively impaired"
+  },
+  {
+    "subject": "participants",
+    "relation": "selected based on",
+    "object": "ApoE genotyping, amyloid-PET, and longitudinal tau PET data availability"
+  },
+  {
+    "subject": "participants",
+    "relation": "excluded",
+    "object": "ApoE e2/e4 genotype or classified as having dementia"
+  },
+  {
+    "subject": "resting-state functional magnetic resonance imaging connectivity templates",
+    "relation": "based on",
+    "object": "42 healthy participants"
+  },
+  {
+    "subject": "mediation",
+    "relation": "of",
+    "object": "amyloid PET on the association between ApoE4 status and subsequent tau PET increase"
+  },
+  {
+    "subject": "interaction",
+    "relation": "between",
+    "object": "ApoE4 status and amyloid PET with annual tau PET increase"
+  },
+  {
+    "subject": "association",
+    "relation": "between",
+    "object": "ApoE4 status by amyloid PET interaction and annual tau PET increases"
+  },
+  {
+    "subject": "amyloid-related tau accumulation",
+    "relation": "was accelerated in",
+    "object": "ApoE4 carriers at lower amyloid levels"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "may facilitate",
+    "object": "earlier amyloid-driven tau spreading across connected brain regions"
+  },
+  {
+    "subject": "therapeutic implications",
+    "relation": "might be further investigated to determine",
+    "object": "when best to prevent tau spreading and thus cognitive decline depending on ApoE4 status"
+  },
+  {
+    "subject": "Microglial involvement",
+    "relation": "has emerged as",
+    "object": "risk-determining pathogenic event"
+  },
+  {
+    "subject": "apolipoprotein E (APOE)",
+    "relation": "is known to modify",
+    "object": "AD risk"
+  },
+  {
+    "subject": "apoE3 expression",
+    "relation": "improves",
+    "object": "cognitive function"
+  },
+  {
+    "subject": "apoE3 expression",
+    "relation": "increases",
+    "object": "microglia surrounding amyloid plaque"
+  },
+  {
+    "subject": "apoE3 expression",
+    "relation": "reduces",
+    "object": "amyloid pathology and associated toxicity"
+  },
+  {
+    "subject": "apoE4 expression",
+    "relation": "compromises or has no effects on",
+    "object": "outcomes by impairing lipid metabolism"
+  },
+  {
+    "subject": "apoE4 expression",
+    "relation": "downregulates",
+    "object": "complement and lysosomal pathways"
+  },
+  {
+    "subject": "apoE4 expression",
+    "relation": "promotes",
+    "object": "stress-related responses"
+  },
+  {
+    "subject": "microglial apoE4",
+    "relation": "exacerbates",
+    "object": "amyloid pathology"
+  },
+  {
+    "subject": "Lgals3-positive responsive microglia",
+    "relation": "reduces",
+    "object": "surrounding amyloid plaque"
+  },
+  {
+    "subject": "Lgals3-positive responsive microglia",
+    "relation": "increases",
+    "object": "accumulation of lipid droplets"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is strongest genetic risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "increased odds ratios in",
+    "object": "female carriers"
+  },
+  {
+    "subject": "targeting amyloid plaques",
+    "relation": "shows",
+    "object": "modest improvement in male non-APOE4 carriers"
+  },
+  {
+    "subject": "single-cell transcriptomics",
+    "relation": "leverages",
+    "object": "APOE variants in both sexes"
+  },
+  {
+    "subject": "multiplex flow cytometry",
+    "relation": "validates",
+    "object": "in two independent cohorts of APOE4 female carriers with AD"
+  },
+  {
+    "subject": "neutrophils",
+    "relation": "interacting with",
+    "object": "microglia associated with cognitive impairment"
+  },
+  {
+    "subject": "phenotype",
+    "relation": "defined by",
+    "object": "increased interleukin (IL)-17 and IL-1 coexpressed gene modules in blood neutrophils and in microglia of cognitively impaired female APOE e4 carriers"
+  },
+  {
+    "subject": "neutrophils",
+    "relation": "showing",
+    "object": "increased infiltration to the AD brain"
+  },
+  {
+    "subject": "APOE4 female IL-17+ neutrophils",
+    "relation": "upregulated",
+    "object": "immunosuppressive cytokines IL-10 and TGFb and immune checkpoints, including LAG3 and PD-1"
+  },
+  {
+    "subject": "deletion of APOE4 in neutrophils",
+    "relation": "reduced",
+    "object": "immunosuppressive phenotype and restored the microglial response to neurodegeneration"
+  },
+  {
+    "subject": "deletion of APOE4 in neutrophils",
+    "relation": "limited",
+    "object": "plaque pathology in AD mice"
+  },
+  {
+    "subject": "IL-17F upregulated in APOE4 neutrophils",
+    "relation": "interacts with",
+    "object": "microglial IL-17RA to suppress the induction of the neurodegenerative phenotype"
+  },
+  {
+    "subject": "blocking this axis",
+    "relation": "supported",
+    "object": "cognitive improvement in AD mice"
+  },
+  {
+    "subject": "findings",
+    "relation": "provide",
+    "object": "a translational basis to target IL-17F in APOE e4 female carriers with cognitive impairment"
+  },
+  {
+    "subject": "e4 allele of apolipoprotein E gene",
+    "relation": "is genetic risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "e4 allele of apolipoprotein E gene",
+    "relation": "is abundantly expressed in",
+    "object": "brain"
+  },
+  {
+    "subject": "e4 allele of apolipoprotein E gene",
+    "relation": "is abundantly expressed in",
+    "object": "periphery"
+  },
+  {
+    "subject": "peripheral apoE isoforms",
+    "relation": "differentially impact",
+    "object": "Alzheimer's disease pathogenesis"
+  },
+  {
+    "subject": "peripheral apoE isoforms",
+    "relation": "differentially impact",
+    "object": "cognition"
+  },
+  {
+    "subject": "liver-expressed apoE4",
+    "relation": "compromised",
+    "object": "synaptic plasticity"
+  },
+  {
+    "subject": "liver-expressed apoE4",
+    "relation": "compromised",
+    "object": "cognition"
+  },
+  {
+    "subject": "liver-expressed apoE4",
+    "relation": "impaired",
+    "object": "cerebrovascular functions"
+  },
+  {
+    "subject": "Plasma proteome profiling",
+    "relation": "revealed",
+    "object": "apoE isoform-dependent functional pathways"
+  },
+  {
+    "subject": "apoE3 plasma from young mice",
+    "relation": "improved",
+    "object": "cognition"
+  },
+  {
+    "subject": "apoE3 plasma from young mice",
+    "relation": "reduced",
+    "object": "vessel-associated gliosis"
+  },
+  {
+    "subject": "apoE4 plasma from young mice",
+    "relation": "compromised",
+    "object": "beneficial effects of young plasma"
+  },
+  {
+    "subject": "human induced pluripotent stem cell-derived endothelial cell model",
+    "relation": "recapitulated",
+    "object": "plasma apoE isoform-specific effect on endothelial integrity"
+  },
+  {
+    "subject": "liver-expressed apoE4",
+    "relation": "exacerbated",
+    "object": "brain amyloid pathology"
+  },
+  {
+    "subject": "liver-expressed apoE3",
+    "relation": "reduced",
+    "object": "brain amyloid pathology"
+  },
+  {
+    "subject": "findings",
+    "relation": "demonstrate",
+    "object": "pathogenic effects of peripheral apoE4"
+  },
+  {
+    "subject": "findings",
+    "relation": "provide",
+    "object": "strong rationale for targeting peripheral apoE to treat Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is associated with",
+    "object": "Alzheimer's Disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "exhibits",
+    "object": "amyloid aggregation"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "exhibits",
+    "object": "tau phosphorylation"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "exhibits",
+    "object": "astrocytic GFAP"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "promotes",
+    "object": "neuronal tau pathogenesis"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "promotes",
+    "object": "neuronal dysregulation"
+  },
+  {
+    "subject": "amyloid-beta",
+    "relation": "is associated with",
+    "object": "Alzheimer's Disease"
+  },
+  {
+    "subject": "tau",
+    "relation": "is phosphorylated by",
+    "object": "APOE4"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "promote",
+    "object": "neuronal tau pathogenesis"
+  },
+  {
+    "subject": "astrocytes",
+    "relation": "promote",
+    "object": "neuronal dysregulation"
+  },
+  {
+    "subject": "microglia",
+    "relation": "crosstalk with",
+    "object": "astrocytes"
+  },
+  {
+    "subject": "Alzheimer's disease",
+    "relation": "is",
+    "object": "progressive and synaptic failure disease"
+  },
+  {
+    "subject": "Alzheimer's disease",
+    "relation": "harbors",
+    "object": "many secrets"
+  },
+  {
+    "subject": "researchers",
+    "relation": "are striving to find",
+    "object": "greater information on disease progression and pathogenesis"
+  },
+  {
+    "subject": "markers of disease",
+    "relation": "are",
+    "object": "hopes of those investing in this field of study"
+  },
+  {
+    "subject": "years of research",
+    "relation": "revealed",
+    "object": "synaptic pathology and mitochondrial oxidative damage are early events in disease progression"
+  },
+  {
+    "subject": "Loss of synapses and synaptic damage",
+    "relation": "are",
+    "object": "best correlates of cognitive deficits found in AD patients"
+  },
+  {
+    "subject": "changes at the synapse",
+    "relation": "can shed",
+    "object": "greater light onto the progression of the disease and serve as markers and therapeutic targets"
+  },
+  {
+    "subject": "article",
+    "relation": "addresses",
+    "object": "mechanisms of synaptic action, mitochondrial regulation/dysregulation, resulting synaptic changes caused by amyloid beta and phosphorylated tau in AD progression"
+  },
+  {
+    "subject": "article",
+    "relation": "highlights",
+    "object": "recent developments of risk factors, genetics and ApoE4 involvement, factors related to synaptic damage and loss, mislocalization of amyloid beta and phosphorylated tau, mitophagy, microglial activation and synapse-based therapies in AD"
+  },
+  {
+    "subject": "impairments in LTD and reactivation of microglia",
+    "relation": "are",
+    "object": "discussed"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "is strongest genetic risk factor for",
+    "object": "late-onset Alzheimer's disease"
+  },
+  {
+    "subject": "microglial APOE4",
+    "relation": "contributes to",
+    "object": "AD pathogenesis"
+  },
+  {
+    "subject": "APOE",
+    "relation": "has most enriched gene expression in",
+    "object": "neurodegenerative microglia (MGnD)"
+  },
+  {
+    "subject": "microglial APOE4",
+    "relation": "has negative role in",
+    "object": "induction of the MGnD response to neurodegeneration"
+  },
+  {
+    "subject": "deletion of microglial APOE4",
+    "relation": "restores",
+    "object": "MGnD phenotype associated with neuroprotection in P301S tau transgenic mice"
+  },
+  {
+    "subject": "deletion of microglial APOE4",
+    "relation": "decreases",
+    "object": "pathology in APP/PS1 mice"
+  },
+  {
+    "subject": "MGnD-astrocyte cross-talk",
+    "relation": "is mediated via",
+    "object": "LGALS3 signaling following microglial APOE4 deletion"
+  },
+  {
+    "subject": "AD donors carrying the APOE4 allele",
+    "relation": "have",
+    "object": "sex-dependent reciprocal induction of AD risk factors associated with suppression of MGnD genes in females"
+  },
+  {
+    "subject": "AD donors carrying the APOE4 allele",
+    "relation": "have",
+    "object": "reciprocal induction of LGALS3 compared to individuals homozygous for the APOE3 allele"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "mediates induction of",
+    "object": "ITGB8-transforming growth factor-b (TGFb) signaling"
+  },
+  {
+    "subject": "ITGB8-TGFb signaling",
+    "relation": "impairs",
+    "object": "MGnD response to AD pathology"
+  },
+  {
+    "subject": "deletion of Inpp5d in microglia",
+    "relation": "restores",
+    "object": "MGnD-astrocyte cross-talk and facilitates plaque clearance in APP/PS1 mice"
+  },
+  {
+    "subject": "microglial APOE4-ITGB8-TGFb pathway",
+    "relation": "is",
+    "object": "negative regulator of microglial response to AD pathology"
+  },
+  {
+    "subject": "blocking ITGB8-TGFb signaling",
+    "relation": "provides",
+    "object": "promising therapeutic intervention for AD"
+  },
+  {
+    "subject": "APOE gene",
+    "relation": "is strongest genetic risk factor for",
+    "object": "late-onset AD"
+  },
+  {
+    "subject": "APOE gene",
+    "relation": "influences",
     "object": "accumulation of Ab in the brain"
   },
   {
-    "subject": "APOE",
-    "relation": "produced by",
+    "subject": "apoE",
+    "relation": "can be produced by",
     "object": "different cell types in the brain"
   },
   {
     "subject": "astrocytes",
-    "relation": "largest producer of",
+    "relation": "are largest producer of",
     "object": "apoE"
   },
   {
-    "subject": "microglia",
+    "subject": "reactive microglia",
     "relation": "express",
     "object": "high levels of apoE"
   },
   {
     "subject": "altering apoE levels in the brain",
-    "relation": "influence",
+    "relation": "can influence",
     "object": "development of Ab plaque pathology"
   },
   {
     "subject": "APOE knock-in mice",
-    "relation": "capable of having",
-    "object": "APOE selectively removed from astrocytes"
+    "relation": "were utilized",
+    "object": "to have APOE selectively removed from astrocytes"
   },
   {
     "subject": "APOE knock-in mice",
-    "relation": "crossed with",
-    "object": "APP/PS1-21 mouse model of amyloidosis"
+    "relation": "were crossed with",
+    "object": "the APP/PS1-21 mouse model of amyloidosis"
+  },
+  {
+    "subject": "Tamoxifen administration",
+    "relation": "was capable of",
+    "object": "strongly reducing apoE levels in the brain"
   },
   {
     "subject": "reduction of astrocytic apoE3 and apoE4",
     "relation": "led to",
-    "object": "large decrease in Ab plaque deposition"
+    "object": "a large decrease in Ab plaque deposition"
   },
   {
     "subject": "reduction of astrocytic apoE3 and apoE4",
@@ -60,19 +1218,24 @@
     "object": "less compact plaques"
   },
   {
-    "subject": "reduction of astrocytic apoE",
-    "relation": "resulted in",
-    "object": "decreased microglial activation"
+    "subject": "reduction of astrocyte apoE",
+    "relation": "did not change",
+    "object": "overall Iba1+ microglia in the cortex"
   },
   {
-    "subject": "reduction of astrocytic apoE",
-    "relation": "resulted in",
-    "object": "decreased astrocyte GFAP levels around amyloid plaques"
+    "subject": "reduction of astrocyte apoE",
+    "relation": "led to",
+    "object": "lower expression of Clec7a and apoE around amyloid plaques"
   },
   {
-    "subject": "reduction of astrocytic apoE",
-    "relation": "resulted in",
-    "object": "decreased overall GFAP levels in the cortex of female apoE4 mice"
+    "subject": "reduction of astrocyte apoE",
+    "relation": "did not change",
+    "object": "astrocyte GFAP levels around amyloid plaques"
+  },
+  {
+    "subject": "reduction of astrocyte apoE",
+    "relation": "led to",
+    "object": "reduced overall GFAP levels in the cortex of female apoE4 mice"
   },
   {
     "subject": "removal of astrocytic apoE",
@@ -85,7 +1248,112 @@
     "object": "overall amount of cortical amyloid-associated neuritic dystrophy"
   },
   {
-    "subject": "circulating immune cells",
+    "subject": "Gene expression",
+    "relation": "is dysregulated in",
+    "object": "Alzheimer's disease patients"
+  },
+  {
+    "subject": "Gene expression",
+    "relation": "is dysregulated in",
+    "object": "Alzheimer's disease patients in peripheral blood"
+  },
+  {
+    "subject": "Gene expression",
+    "relation": "is dysregulated in",
+    "object": "Alzheimer's disease patients in post mortem brain"
+  },
+  {
+    "subject": "APOE4 carriers",
+    "relation": "have",
+    "object": "166 significant differentially expressed genes at follow-up compared to baseline"
+  },
+  {
+    "subject": "APOE4 non-carriers",
+    "relation": "have",
+    "object": "12 significant differentially expressed genes at follow-up compared to baseline"
+  },
+  {
+    "subject": "significant genes in APOE4 carriers",
+    "relation": "have",
+    "object": "strong evidence for a pathogenic role in AD"
+  },
+  {
+    "subject": "significant genes in APOE4 carriers",
+    "relation": "are associated with",
+    "object": "NGRN, IGF2, GMPR, CLDN5, SMIM24"
+  },
+  {
+    "subject": "significant genes in APOE4 carriers",
+    "relation": "show upregulated",
+    "object": "mitochondrial and metabolic pathways"
+  },
+  {
+    "subject": "significant genes in APOE4 carriers",
+    "relation": "show exacerbated upregulation of",
+    "object": "ribosomal pathways"
+  },
+  {
+    "subject": "individuals classified as amyloid negative at baseline and positive at follow-up or amyloid positive at both time points",
+    "relation": "have",
+    "object": "33 unique significant differentially expressed genes at follow-up compared to baseline"
+  },
+  {
+    "subject": "individuals amyloid negative at both time points",
+    "relation": "have",
+    "object": "32 unique significant differentially expressed genes over time"
+  },
+  {
+    "subject": "significant genes in the first group",
+    "relation": "have",
+    "object": "the top five with the highest direct association scores: RPL17-C18orf32, HSP90AA1, MBP, SIRPB1, GRINA"
+  },
+  {
+    "subject": "significant genes in the first group",
+    "relation": "show upregulated",
+    "object": "metabolism and focal adhesion pathways"
+  },
+  {
+    "subject": "baseline co-expression modules",
+    "relation": "are derived",
+    "object": "seventeen"
+  },
+  {
+    "subject": "baseline co-expression modules",
+    "relation": "are enriched for",
+    "object": "proteasomal protein catabolic process and myeloid cell development"
+  },
+  {
+    "subject": "follow-up modules",
+    "relation": "are derived",
+    "object": "thirty-two"
+  },
+  {
+    "subject": "follow-up modules",
+    "relation": "are associated with",
+    "object": "APOE4 status"
+  },
+  {
+    "subject": "downregulated module",
+    "relation": "is associated with",
+    "object": "APOE4 status"
+  },
+  {
+    "subject": "downregulated module",
+    "relation": "is enriched for",
+    "object": "proteasomal protein catabolic process and myeloid cell homeostasis"
+  },
+  {
+    "subject": "upregulated module",
+    "relation": "is associated with",
+    "object": "APOE4 status"
+  },
+  {
+    "subject": "upregulated module",
+    "relation": "is enriched for",
+    "object": "cytoplasmic translation and rRNA processing"
+  },
+  {
+    "subject": "Circulating immune cells",
     "relation": "contribute to",
     "object": "pathogenesis of Alzheimer's disease"
   },
@@ -95,23 +1363,48 @@
     "object": "neuroprotective microglia"
   },
   {
-    "subject": "female APOE4 carriers",
-    "relation": "identified as",
-    "object": "subset of interleukin (IL)-17+ neutrophils"
+    "subject": "subset of interleukin (IL)-17+ neutrophils",
+    "relation": "inhibit",
+    "object": "neuroprotective microglia in female APOE4 carriers"
   },
   {
-    "subject": "Blockade of IL-17 signaling or APOE4 deletion in neutrophils",
+    "subject": "Blockade of IL-17 signaling",
     "relation": "restored",
     "object": "microglial responses"
   },
   {
-    "subject": "Blockade of IL-17 signaling or APOE4 deletion in neutrophils",
+    "subject": "APOE4 deletion in neutrophils",
+    "relation": "restored",
+    "object": "microglial responses"
+  },
+  {
+    "subject": "Blockade of IL-17 signaling",
     "relation": "reduced",
     "object": "murine amyloid pathology"
   },
   {
-    "subject": "APOE4",
-    "relation": "is risk factor for",
+    "subject": "APOE4 deletion in neutrophils",
+    "relation": "reduced",
+    "object": "murine amyloid pathology"
+  },
+  {
+    "subject": "Alzheimer's disease",
+    "relation": "leads to",
+    "object": "cerebral amyloid angiopathy (CAA)"
+  },
+  {
+    "subject": "cerebral amyloid angiopathy (CAA)",
+    "relation": "impairs",
+    "object": "blood-brain barrier (BBB) function"
+  },
+  {
+    "subject": "cerebral amyloid angiopathy (CAA)",
+    "relation": "accelerates",
+    "object": "cognitive degeneration"
+  },
+  {
+    "subject": "Apolipoprotein (APOE4)",
+    "relation": "is strongest risk factor for",
     "object": "CAA"
   },
   {
@@ -120,7 +1413,7 @@
     "object": "more amyloid accumulation in APOE4 compared to APOE3"
   },
   {
-    "subject": "dysregulation of calcineurin-NFAT signaling and APOE",
+    "subject": "dysregulation of calcineurin-nuclear factor of activated T cells (NFAT) signaling and APOE",
     "relation": "induces",
     "object": "APOE4-associated CAA pathology"
   },
@@ -135,33 +1428,393 @@
     "object": "APOE4-associated CAA pathology in vitro and in vivo"
   },
   {
+    "subject": "Apolipoprotein E4",
+    "relation": "is major genetic risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "Apolipoprotein E4",
+    "relation": "is actively involved in",
+    "object": "proteolytic processing of amyloid precursor protein"
+  },
+  {
+    "subject": "Apolipoprotein E4",
+    "relation": "is actively involved in",
+    "object": "amyloid b peptide production"
+  },
+  {
+    "subject": "Apolipoprotein E4",
+    "relation": "is actively involved in",
+    "object": "amyloid plaques formation"
+  },
+  {
+    "subject": "Apolipoprotein E4",
+    "relation": "affects",
+    "object": "APP processing through intracellular cholesterol homeostasis"
+  },
+  {
+    "subject": "pharmacological agents",
+    "relation": "has been suggested to reduce",
+    "object": "Ab production"
+  },
+  {
+    "subject": "fenofibrate, naringenin, and diosmetin",
+    "relation": "reduce",
+    "object": "Apolipoprotein E4-induced APP processing"
+  },
+  {
+    "subject": "fenofibrate, naringenin, and diosmetin",
+    "relation": "reduce",
+    "object": "Apolipoprotein E4-induced Ab peptide production"
+  },
+  {
+    "subject": "diosmetin",
+    "relation": "significantly reduced",
+    "object": "Apolipoprotein E4-induced full-length APP expression"
+  },
+  {
+    "subject": "naringenin and fenofibrate",
+    "relation": "had no effect on",
+    "object": "Apolipoprotein E4-induced full-length APP expression"
+  },
+  {
+    "subject": "drug pretreatment",
+    "relation": "reduced",
+    "object": "increase in Apolipoprotein E4-induced secretion of sAPPtotal and sAPPa"
+  },
+  {
+    "subject": "fenofibrate and naringenin",
+    "relation": "increased",
+    "object": "decrease in expression of APP-carboxy terminal fragments (CTF)-a and -b by Apolipoprotein E4"
+  },
+  {
+    "subject": "diosmetin",
+    "relation": "had no effect on",
+    "object": "increase in expression of APP-carboxy terminal fragments (CTF)-a and -b by Apolipoprotein E4"
+  },
+  {
+    "subject": "APOE4 status",
+    "relation": "correlations with",
+    "object": "regional amyloid"
+  },
+  {
+    "subject": "APOE4 status",
+    "relation": "correlations with",
+    "object": "tau"
+  },
+  {
+    "subject": "APOE4 status",
+    "relation": "correlations with",
+    "object": "cortical thickness"
+  },
+  {
+    "subject": "APOE4 carrier status",
+    "relation": "compare regional amyloid/tau burden, and cortical thickness according to",
+    "object": "APOE4 carrier status"
+  },
+  {
+    "subject": "APOE4 carrier status",
+    "relation": "assess correlations between",
+    "object": "Alzheimer's disease (AD)-related biomarker burdens"
+  },
+  {
+    "subject": "APOE4 existence",
+    "relation": "correlations with",
+    "object": "imaging biomarkers"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "robust correlations with",
+    "object": "increased amyloid burden"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "weaker and mixed correlations with",
+    "object": "regional tau burden"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "not have significant correlation with",
+    "object": "cortical thickness"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "more highly associated with",
+    "object": "amyloid deposition"
+  },
+  {
+    "subject": "studies",
+    "relation": "implemented",
+    "object": "machine learning approaches combined with data measures to predict and classify Alzheimer's disease"
+  },
+  {
+    "subject": "studies",
+    "relation": "remain scarce",
+    "object": "Studies that predicted cognitive status with longitudinal follow-up of amyloid-positive individuals"
+  },
+  {
+    "subject": "models",
+    "relation": "based on",
+    "object": "voxel-wise functional connectivity (FC) density mapping and the presence of the ApoE4 genotype"
+  },
+  {
+    "subject": "participants",
+    "relation": "divided into",
+    "object": "cognitive decline and stable cognition groups based on the participants' change rates in Mini-Mental State Examination scores"
+  },
+  {
+    "subject": "models",
+    "relation": "developed",
+    "object": "two classification models"
+  },
+  {
+    "subject": "models",
+    "relation": "trained by",
+    "object": "Wide Neural Network algorithm with fivefold cross-validation"
+  },
+  {
+    "subject": "models",
+    "relation": "predicted",
+    "object": "the classes in the hold-out test and ADNI data sets"
+  },
+  {
+    "subject": "results",
+    "relation": "revealed",
+    "object": "both models demonstrated high accuracy in classifying the two groups in the hold-out test data set"
+  },
+  {
+    "subject": "model for FC",
+    "relation": "demonstrated",
+    "object": "good performance, with a mean F 1-score of 0.86"
+  },
+  {
+    "subject": "model for FC combined with the ApoE4 genotype",
+    "relation": "achieved",
+    "object": "superior performance, with a mean F 1-score of 0.90"
+  },
+  {
+    "subject": "models",
+    "relation": "demonstrated",
+    "object": "stable performances, with mean F 1-scores of 0.77 in the first and second models"
+  },
+  {
+    "subject": "findings",
+    "relation": "suggest",
+    "object": "proposed models exhibited promising accuracy for predicting cognitive status after 1 year in amyloid-positive individuals"
+  },
+  {
+    "subject": "findings",
+    "relation": "can assist",
+    "object": "clinicians in predicting changes in cognitive status in individuals with a high risk of Alzheimer's disease and can assist future studies in developing precise treatment and prevention strategies"
+  },
+  {
     "subject": "APOE4",
     "relation": "accelerates",
     "object": "beta-amyloid plaque formation"
   },
   {
-    "subject": "APOE",
-    "relation": "expressed in",
-    "object": "astrocytes"
+    "subject": "APOE4",
+    "relation": "caused by",
+    "object": "APOE expressed in microglia or astrocytes"
   },
   {
-    "subject": "APOE",
-    "relation": "expressed in",
-    "object": "microglia"
-  },
-  {
-    "subject": "APOE2",
-    "relation": "increases",
+    "subject": "APOE4",
+    "relation": "increase",
     "object": "fibrillar plaque deposition"
   },
   {
     "subject": "APOE4",
-    "relation": "affects",
+    "relation": "affect",
     "object": "soluble Ab aggregates"
   },
   {
-    "subject": "astrocytes",
-    "relation": "play a central role in",
-    "object": "APOE mediated amyloid plaque pathology"
+    "subject": "APOE4",
+    "relation": "affect",
+    "object": "function of APOE genotype expressed in astrocytes"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "has",
+    "object": "central role in APOE mediated amyloid plaque pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "has",
+    "object": "central role in induction of associated microglia responses"
+  },
+  {
+    "subject": "APOE gene",
+    "relation": "is strongest genetic risk modifier for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4 allele",
+    "relation": "increases risk compared with",
+    "object": "APOE3 allele"
+  },
+  {
+    "subject": "APOE2 allele",
+    "relation": "decreases risk compared with",
+    "object": "APOE3 allele"
+  },
+  {
+    "subject": "APOE2 carriers",
+    "relation": "showed upregulated",
+    "object": "synaptic and myelination-related pathways"
+  },
+  {
+    "subject": "APOE3 homozygotes",
+    "relation": "showed downregulated",
+    "object": "synaptic and myelination proteins"
+  },
+  {
+    "subject": "APOE4 carriers",
+    "relation": "showed reduced synaptic pathways similar to",
+    "object": "APOE3"
+  },
+  {
+    "subject": "APOE4 carriers",
+    "relation": "showed upregulated myelination pathways like",
+    "object": "APOE2"
+  },
+  {
+    "subject": "APOE4 carriers",
+    "relation": "showed increased pro-inflammatory signatures in",
+    "object": "microglia"
+  },
+  {
+    "subject": "APOE4 carriers",
+    "relation": "showed reduced responses to",
+    "object": "amyloid-beta pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is main susceptibility gene for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "leads to",
+    "object": "vascular dysfunction"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "leads to",
+    "object": "amyloid-b pathology"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "leads to",
+    "object": "neurodegeneration"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "leads to",
+    "object": "dementia"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "blood-brain barrier breakdown"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "loss of cerebral blood flow"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "neuronal loss"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "behavioral deficits"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "is associated with",
+    "object": "activation of the cyclophilin A-matrix metalloproteinase-9 BBB-degrading pathway in pericytes"
+  },
+  {
+    "subject": "activation of the cyclophilin A-matrix metalloproteinase-9 BBB-degrading pathway in pericytes",
+    "relation": "improves",
+    "object": "BBB integrity"
+  },
+  {
+    "subject": "activation of the cyclophilin A-matrix metalloproteinase-9 BBB-degrading pathway in pericytes",
+    "relation": "prevents",
+    "object": "further neuronal loss and behavioral deficits"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "advanced-stage BBB breakdown"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "accelerates",
+    "object": "neurodegeneration in Alzheimer's mice"
+  },
+  {
+    "subject": "APOE4",
+    "relation": "has implication for",
+    "object": "pathogenesis and treatment of vascular and neurodegenerative disorder in AD"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "is variant of",
+    "object": "APOE gene product"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "is major genetic risk factor for",
+    "object": "Alzheimer's disease"
+  },
+  {
+    "subject": "ApoE4-expressing neurons",
+    "relation": "had higher levels of",
+    "object": "tau phosphorylation"
+  },
+  {
+    "subject": "ApoE4-expressing neurons",
+    "relation": "displayed",
+    "object": "GABAergic neuron degeneration"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "increased",
+    "object": "Ab production in human neurons"
+  },
+  {
+    "subject": "ApoE4",
+    "relation": "did not increase",
+    "object": "Ab production in mouse neurons"
+  },
+  {
+    "subject": "Converting ApoE4 to ApoE3",
+    "relation": "rescued",
+    "object": "phenotypes"
+  },
+  {
+    "subject": "Neurons lacking APOE",
+    "relation": "behaved similarly to",
+    "object": "neurons expressing ApoE3"
+  },
+  {
+    "subject": "Introduction of ApoE4 expression",
+    "relation": "recapitulated",
+    "object": "pathological phenotypes"
+  },
+  {
+    "subject": "Treatment of ApoE4-expressing neurons",
+    "relation": "ameliorated",
+    "object": "detrimental effects"
+  },
+  {
+    "subject": "correcting the pathogenic conformation of ApoE4",
+    "relation": "is",
+    "object": "viable therapeutic approach for ApoE4-related AD"
   }
 ]

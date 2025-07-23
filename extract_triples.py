@@ -1,11 +1,12 @@
-# extract_triples.py - FINAL ROBUST VERSION
+# extract_triples.py - DEFINITIVE VERSION WITH IMPROVED PROMPT
 import os
 import json
 import openai
 from dotenv import load_dotenv
 import certifi
 import httpx
-import time # NEW: Import the time library for adding delays
+import time
+from tqdm import tqdm
 
 load_dotenv()
 
@@ -18,30 +19,60 @@ client = openai.OpenAI(
 
 def extract_triples(text, max_retries=3):
     """
-    Calls the OpenAI API to extract triples, now with retry logic and delays.
+    Calls the OpenAI API to extract triples using a more resilient "few-shot" prompt.
     """
-    prompt = (
-        "Extract triples (Subject, Relation, Object) about APOE4 and amyloid-beta from this abstract.\n"
-        "Respond ONLY with a JSON array of objects {\"subject\":...,\"relation\":...,\"object\":...}.\n\n"
-        f"{text}\n"
-    )
+    # --- FIXED: A more robust "few-shot" prompt ---
+    # We give the AI an example and an explicit instruction for cases where it finds nothing.
+    # This makes it much less likely to return an empty or invalid response.
+    prompt = f"""
+    You are an expert biomedical researcher. Your task is to extract relationships from a scientific abstract in the form of (Subject, Relation, Object) triples.
+
+    Follow these rules:
+    1. Extract facts related to APOE4, amyloid-beta, Alzheimer's Disease, and associated pathologies.
+    2. The output must be a valid JSON array of objects.
+    3. If you cannot find any relevant triples in the abstract, you MUST return an empty JSON array: [].
+
+    Here is an example:
+    ---
+    Abstract: "The APOE4 allele is the strongest genetic risk factor for Alzheimer's disease (AD). It impairs the clearance of amyloid-beta from the brain."
+    Output:
+    [
+        {{"subject": "APOE4 allele", "relation": "is strongest genetic risk factor for", "object": "Alzheimer's disease"}},
+        {{"subject": "APOE4 allele", "relation": "impairs", "object": "clearance of amyloid-beta"}}
+    ]
+    ---
     
-    # --- NEW: Retry Mechanism ---
+    Now, extract the triples from the following abstract:
+    
+    Abstract: "{text}"
+    Output:
+    """
+    
     for attempt in range(max_retries):
         try:
             resp = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0,
-                timeout=30 # Add a timeout for the request
+                timeout=60
             )
-            return json.loads(resp.choices[0].message.content)
-        except Exception as e:
-            print(f"  Attempt {attempt + 1} failed: {e}. Retrying in 3 seconds...")
-            time.sleep(3) # Wait for 3 seconds before trying again
+            content = resp.choices[0].message.content
+            # The response might be inside a markdown code block, so we clean it
+            if "```json" in content:
+                content = content.split("```json")[1].split("```")[0]
             
-    print("  All retry attempts failed for this line.")
-    return [] # Return an empty list if all retries fail
+            return json.loads(content)
+
+        except json.JSONDecodeError:
+             print(f"\n  Attempt {attempt + 1}/{max_retries} failed: API did not return valid JSON. Retrying...")
+             time.sleep(5)
+        except Exception as e:
+            error_type = type(e).__name__
+            print(f"\n  Attempt {attempt + 1}/{max_retries} failed with error type '{error_type}': {e}. Retrying...")
+            time.sleep(5)
+            
+    print(f"\n  All retry attempts failed for abstract: '{text[:50]}...'. Skipping.")
+    return []
 
 
 if __name__ == "__main__":
@@ -53,16 +84,17 @@ if __name__ == "__main__":
         with open(corpus_file, encoding="utf-8") as f:
             abstracts = [line.strip() for line in f if line.strip()]
         
-        for i, line in enumerate(abstracts):
-            print(f"\nProcessing abstract {i + 1}/{len(abstracts)}: '{line[:60]}...'")
-            
+        for line in tqdm(abstracts, desc="Extracting Triples"):
+            # We no longer need the aggressive cleaning
+            if len(line) < 100:
+                continue
+
             triples = extract_triples(line)
+            
             if triples:
-                print(f"  -> Successfully extracted {len(triples)} triples.")
                 all_triples.extend(triples)
             
-            # --- NEW: Polite Delay ---
-            # Add a 1-second pause between each API call to respect rate limits
+            # Polite delay to respect rate limits
             time.sleep(1)
 
     except FileNotFoundError:

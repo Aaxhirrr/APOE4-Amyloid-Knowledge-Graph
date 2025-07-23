@@ -54,7 +54,6 @@ def fetch_pubmed_abstracts(query, max_results=20, email="your.email@example.com"
             abstract_text_list = article['MedlineCitation']['Article']['Abstract']['AbstractText']
             full_abstract = ' '.join(abstract_text_list)
             
-            # --- THIS IS THE NEW, CRUCIAL STEP ---
             cleaned_abstract = clean_text(full_abstract)
             
             if cleaned_abstract:
