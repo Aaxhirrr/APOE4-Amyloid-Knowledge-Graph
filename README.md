@@ -1,5 +1,14 @@
 # APOE4-Amyloid-Knowledge-Graph
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.x-orange)
+![Neo4j](https://img.shields.io/badge/Neo4j-5.x-008cc1)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-412991)
+
+This project explores a fully automated approach to knowledge discovery as an extension of the `OntoKGen` research framework from Arizona State University. The pipeline ingests unstructured text from scientific abstracts and transforms it into a structured, queryable knowledge graph, with a specific focus on the mechanistic role of the APOE4 gene in Alzheimer's Disease pathogenesis.
+
+**Live Application Demo:** `https://apoe4-amyloid-knowledge-graph.streamlit.app/`
+
 ![Status: Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-yellow)
 
 A project to build and visualize a knowledge graph of the relationship between the APOE4 gene and Amyloid from biomedical literature.
