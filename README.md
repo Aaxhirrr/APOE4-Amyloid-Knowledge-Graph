@@ -6,7 +6,7 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--3.5-412991)
 
 
-A project to build and visualize a knowledge graph of the relationship between the APOE4 gene and Amyloid from biomedical literature.
+A project to build and visualize a knowledge graph of the relationship between the APOE4 gene and Amyloid from the complex biomedical literature.
 
 **Live Application Demo:** `https://apoe4-amyloid-knowledge-graph.streamlit.app/`
 
